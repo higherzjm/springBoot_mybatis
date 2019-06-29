@@ -1,0 +1,24 @@
+#端口号
+server:
+  port: 8080
+
+
+# DATASOURCE
+jdbc:
+      dataSourceClassName:  com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+      url:  jdbc:mysql://127.0.0.1:3306/test0629?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+      databaseName:  test0629
+      serverName:  127.0.0.1
+      username: root
+      password: zjm@cat
+      cachePrepStmts: true
+      prepStmtsSize: 250mybatis-config.xml
+      prepStmtsCacheSqlLimit: 2048
+      userServerPrepStmts: true
+
+# MyBatis
+mybatis:
+           typeAliasesPackage: com.allen.springBoot.mybatis.dao.mapper
+           mapperLocations: classpath:/mappers/*.xml
+           configLocation: classpath:/mybatis-config.xml  # 分页用的
+

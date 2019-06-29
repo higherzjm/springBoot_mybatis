@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springBoot_mybatis.iml" filepath="$PROJECT_DIR$/springBoot_mybatis.iml" />
+      <module fileurl="file://D:\项目资源\学习项目另存为\myspringframeworkprojects\springBoot_mybatis\springBoot_mybatis_pagehelper_databasepool.iml" filepath="D:\项目资源\学习项目另存为\myspringframeworkprojects\springBoot_mybatis\springBoot_mybatis_pagehelper_databasepool.iml" />
+    </modules>
+  </component>
+</project>
